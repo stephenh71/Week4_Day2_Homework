@@ -1,0 +1,14 @@
+<h1>All Orders</h1>
+
+<%# ERB comments need additional syntax like this %>
+
+<% for order in @orders %>
+<div class="order">
+  <p><strong> Name: </strong><%= order.pretty_name() %></p>
+    <p><strong> Topping: </strong> <%= order.topping %><p>
+      <p><strong> Quantity: </strong> <%= order.quantity %><p>
+
+      <a class="mybutton" href="/pizza-orders/<%= order.id %>" role="button" >Order Details</a>
+</div>
+
+<% end %>

@@ -1,0 +1,57 @@
+body{
+  background-image: url("background-pizza.jpg");
+  color: black;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 80px;
+  text-decoration: underline solid;
+  text-decoration-color: red;
+}
+
+h3{
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 80px;
+letter-spacing: 5.8px;
+word-spacing: 6px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+}
+
+nav{
+  text-align: right;
+}
+
+.order{
+  display: inline-table;
+  text-align: center;
+  padding-left: 8px;
+  border: 4px ridge #ECD1CD;
+  margin: 4px;
+  width: 20%;
+  background-color: rgba(236,236,236,0.73);
+}
+
+.edit{
+  display: inline-table;
+  text-align: center;
+  padding-left: 8px;
+  border: 4px ridge #ECD1CD;
+  margin: 4px;
+  width: 35%;
+  background-color: rgba(236,236,236,0.73);
+}
+
+
+.mybutton{
+  color: rgb(255, 255, 255); font-size: 14px; line-height: 16px; padding: 6px; border-radius: 8px; font-family: Georgia, serif;  text-decoration: none;  background-image: linear-gradient(to right, #ff6347 0%, #ff4500 50%, #dc143c 100%); box-shadow: rgb(0, 0, 0) 3px 3px 7px 3px; border: 2px solid rgb(28, 110, 164); display: inline-block;
+}
+
+  .mybutton2{
+    color: rgb(255, 255, 255); font-size: 14px; line-height: 16px; padding: 6px; border-radius: 8px; font-family: Georgia, serif;  text-decoration: none;  background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 3px 3px 7px 3px; border: 2px solid rgb(28, 110, 164); display: inline-block;
+  }

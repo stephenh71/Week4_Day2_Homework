@@ -1,0 +1,33 @@
+<h1>Edit Order</h1>
+
+<div class="edit">
+<form method="post" action="/pizza-orders/<%= @order.id %>/update">
+  <br>
+  <br>
+  <label for='first-name'><strong>First Name:</strong></label>
+  <input id='first-name' value='<%= @order.first_name %>' type="text" name='first_name'/>
+<br>
+<br>
+  <label for='last-name'><strong>Last Name:</strong></label>
+  <input id='last-name' value= '<%= @order.last_name%>' type="text" name="last_name"/>
+  <br>
+  <br>
+  <label for='pizza-select'><strong>Select a pizza:</strong></label>
+  <select id= 'pizza_select' name='topping'>
+    <option value='Margherita'>Margherita</option>
+    <option value='Calzone'>Calzone</option>
+  </select>
+  <br>
+  <br>
+  <label for='quantity'><strong>Quantity:</strong></label>
+  <input id='quantity' value ='<%= @order.quantity %>' type = 'number' name = 'quantity'/>
+  <br>
+  <br>
+  <br>
+  <input class="mybutton" type='submit' role="button" value='Update Order'/>
+  <br>
+  <br>
+  <br>
+</form>
+
+</div>

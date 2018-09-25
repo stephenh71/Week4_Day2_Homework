@@ -1,0 +1,27 @@
+<h1>Order Details  </h1>
+
+<div class="order">
+  <p><strong> First Name: </strong><%= @order.first_name %></p>
+  <p><strong> Last Name: </strong><%= @order.last_name %></p>
+  <p><strong> Topping: </strong><%= @order.topping %></p>
+  <p><strong> Quantity: </strong><%= @order.quantity %></p>
+
+  <br>
+  <form method='get' action='/pizza-orders/<%= @order.id %>/edit'>
+
+    <input class="mybutton" type='submit' value='Edit Order'/>
+
+  </form>
+<br>
+<br>
+
+  <form method='post' action='/pizza-orders/<%= @order.id %>/delete'>
+
+    <input class="mybutton" type='submit'role="button" value='Delete Order'/>
+
+  </form>
+
+  <br>
+  <br>
+
+  </div>
